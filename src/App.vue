@@ -1,15 +1,12 @@
 <template>
   <div id="app">
     <header>
-      <h1>Welcome to my website, my name is Tung CHENG.</h1>
+      <h1>imkdir, then cd.</h1>
     </header>
     <aside><Menu/></aside>
     <div class="main">
       <router-view></router-view>
     </div>
-    <footer>
-      <p>Hosted on GitHub Page, written with WebStorm & Vue.js</p>
-    </footer>
   </div>
 </template>
 
@@ -18,9 +15,7 @@ import Menu from '@/components/Menu';
 
 export default {
   name: 'app',
-  components: {
-      Menu
-  }
+  components: { Menu }
 }
 </script>
 
@@ -33,12 +28,7 @@ export default {
   color: #2c3e50;
   margin-top: 40px;
   margin-left: 40px;
-}
-
-footer p {
-  font-size: 12px;
-  font-weight: 300;
-  color: gray;
+  height: 100%;
 }
 
 aside {
