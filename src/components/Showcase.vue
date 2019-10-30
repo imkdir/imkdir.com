@@ -32,7 +32,14 @@
 
 <style scoped>
     .app-list {
+        width: 100%;
         display: flex;
         flex-direction: row;
+    }
+    @media only screen and (max-width: 768px) {
+        .app-list {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 </style>

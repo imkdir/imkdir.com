@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <h2>My Favorite Books 2019</h2>
         <div class="book-list" v-for="(book, index) in books" :key="index">
             <div class="book-cover">
@@ -38,7 +38,6 @@
 </script>
 
 <style scoped>
-
     .book-cover {
         float: left;
         display: inline;

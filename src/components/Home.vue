@@ -23,6 +23,7 @@
 
 <style scoped>
 article {
+  width: 95%;
   text-align: justify;
 }
 

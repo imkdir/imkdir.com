@@ -26,9 +26,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 40px;
-  margin-left: 40px;
+  margin: 20px;
   height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 aside {
@@ -40,5 +41,15 @@ aside {
 
 .main {
   width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+  }
+  aside {
+    margin-bottom: 20px;
+    border: none;
+  }
 }
 </style>

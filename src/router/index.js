@@ -5,6 +5,7 @@ import Blog from '@/components/Blog';
 import List from '@/components/List';
 import Misc from '@/components/Miscellaneous';
 import Showcase from "@/components/Showcase";
+import PrivacyPolicy from "../contents/privacy-policy";
 
 Vue.use(VueRouter);
 
@@ -54,6 +55,10 @@ const router = new VueRouter({
             name: 'miscellaneous',
             component: Misc
         },
+        {
+            path: '/privacy-policy/:name',
+            component: PrivacyPolicy
+        }
     ]
 });
 

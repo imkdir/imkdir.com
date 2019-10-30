@@ -28,6 +28,7 @@
 
 <style scoped>
 .miscellaneous {
+    width: 95%;
     text-align: justify;
 }
 

@@ -20,6 +20,12 @@
     flex-direction: column;
 }
 
+@media only screen and (max-width: 768px) {
+    .menu-items {
+        flex-direction: row;
+    }
+}
+
 .menu-subitem {
   margin: 10px;
   text-align: left;

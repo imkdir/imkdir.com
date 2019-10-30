@@ -33,6 +33,7 @@ export default {
 
 <style scoped>
 .blog-entries {
+    width: 95%;
     display: flex;
     flex-direction: column;
 }
