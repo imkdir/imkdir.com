@@ -2,21 +2,11 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '@/components/Home';
 import Blog from '@/components/Blog';
-import Timeline from "@/components/Timeline";
 import List from '@/components/List';
-import Miscellaneous from '@/components/Miscellaneous';
-import BlogEntries from '../../statics/data/blogs.json';
-import Eatles from "../../contents/projects/Eatles";
+import Misc from '@/components/Miscellaneous';
+import Showcase from "@/components/Showcase";
 
 Vue.use(VueRouter);
-
-const blogRoutes = [...BlogEntries].map( each => {
-    return {
-        path: `/${each.id}`,
-        name: each.title,
-        component: () => import(`../../contents/blogposts/${each.id}.vue`)
-    }
-});
 
 const router = new VueRouter({
     mode: 'history',
@@ -32,8 +22,8 @@ const router = new VueRouter({
             component: Blog,
         },
         {
-            path: '/timeline',
-            component: Timeline,
+            path: '/projects',
+            component: Showcase,
         },
         {
             path: '/books',
@@ -61,16 +51,10 @@ const router = new VueRouter({
             component: List
         },
         {
-            path: '/projects',
-            name: 'projects',
-            component: Eatles
-        },
-        {
             path: '/miscellaneous',
             name: 'miscellaneous',
-            component: Miscellaneous
+            component: Misc
         },
-        ...blogRoutes
     ]
 });
 

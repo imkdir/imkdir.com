@@ -35,9 +35,8 @@ export default {
 }
 
 .list-content p {
-    font-weight: 600;
+    font-weight: 500;
     font-size: large;
     font-family: monospace;
-    line-height: 10px;
 }
 </style>
