@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d216b99"],{c44f:function(e){e.exports=JSON.parse('[{"date":"2019-10-23","event":"Set up my personal Website with Vue.js"}]')}}]);
-//# sourceMappingURL=chunk-2d216b99.7f077378.js.map
