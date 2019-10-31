@@ -1,5 +1,7 @@
 <template>
     <div class="blog-entries">
+        <BringBackOldProject />
+        <div class="separator"></div>
         <MyFavoriteBooks2019 />
         <div class="separator"></div>
         <StoryBehindEatles />
@@ -18,6 +20,7 @@ import NotesOnUnixEnv from '../contents/notes-on-unix-env';
 import GetAllSubsetsOfOptionSet from '../contents/get-all-subsets-of-optionset';
 import StoryBehindEatles from '../contents/story-behind-eatles';
 import MyFavoriteBooks2019 from '../contents/my-favorite-books-2019';
+import BringBackOldProject from '../contents/bring-back-old-project';
 
 export default {
     name: 'Blog',
@@ -27,6 +30,7 @@ export default {
         GetAllSubsetsOfOptionSet,
         StoryBehindEatles,
         MyFavoriteBooks2019,
+        BringBackOldProject,
     }
 }
 </script>
