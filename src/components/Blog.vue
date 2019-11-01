@@ -1,5 +1,7 @@
 <template>
     <div class="blog-entries">
+        <OldPuzzleNewGame />
+        <div class="separator"></div>
         <BringBackOldProject />
         <div class="separator"></div>
         <MyFavoriteBooks2019 />
@@ -21,6 +23,7 @@ import GetAllSubsetsOfOptionSet from '../contents/get-all-subsets-of-optionset';
 import StoryBehindEatles from '../contents/story-behind-eatles';
 import MyFavoriteBooks2019 from '../contents/my-favorite-books-2019';
 import BringBackOldProject from '../contents/bring-back-old-project';
+import OldPuzzleNewGame from '../contents/old-puzzle-new-game';
 
 export default {
     name: 'Blog',
@@ -31,6 +34,7 @@ export default {
         StoryBehindEatles,
         MyFavoriteBooks2019,
         BringBackOldProject,
+        OldPuzzleNewGame,
     }
 }
 </script>

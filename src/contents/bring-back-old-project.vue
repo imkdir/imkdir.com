@@ -1,6 +1,6 @@
 <template>
     <article>
-        <h2>Bring Back an Old Project</h2>
+        <h2>You Shall Be Released</h2>
         <p>Recently I picked up a project I left behind a few months ago. I read the code; the structure isn't much clear -- it separates the files based on the Model-View-Controller roles, while I switched to the structure which group files based on their domain roles and expresses each domain's functionality via components. Other than that, it looks decent to me.</p>
         <p>The reason I dropped the project? Perhaps I dig it too long and can't find the focus, so I shifted to another project for a breath of fresh.</p>
         <p>Never mind that now, I want an app where I can write down notes like plain text, with some custom syntax if necessary, and view it with a customizable user interface. At that time, I was learning Japanese, so I start with the vocabulary list and kanji card deck features in mind.</p>
