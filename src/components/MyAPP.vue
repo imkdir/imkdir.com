@@ -15,7 +15,7 @@
         props: ['item'],
         methods: {
             getAppIcon(id) {
-                return require(`../assets/image/${id}.png`)
+                return require(`../../statics/image/${id}.png`)
             },
             linkToAppStore(id) {
                 return `https://apps.apple.com/us/app/eatles/id${id}?mt=8`

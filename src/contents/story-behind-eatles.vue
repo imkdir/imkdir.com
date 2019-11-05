@@ -11,11 +11,11 @@
         </ol>
         <p>When I started, I had obesity, as I watched my BMI goes from obesity to overweight, then to normal, it feels so good! That's when I begin to think, how to make the experience into an app that can help others achieve their fitness goals.</p>
         <figure>
-            <img src="../../src/assets/image/eatles_draft.jpg" alt="the first draft of Eatles design" width=256>
+            <img src="../../statics/image/eatles_draft.jpg" alt="the first draft of Eatles design" width=256>
             <figcaption>The first draft of Eatles on paper.</figcaption>
         </figure>
         <figure>
-            <img src="../../src/assets/image/eatles_final.jpg" alt="screenshots of Eatles 1.3.0" width=256>
+            <img src="../../statics/image/eatles_final.jpg" alt="screenshots of Eatles 1.3.0" width=256>
             <figcaption>Screenshots of Eatles on the App Store.</figcaption>
         </figure>
         <a href="https://apps.apple.com/us/app/eatles/id1457657907?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-05-16&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>

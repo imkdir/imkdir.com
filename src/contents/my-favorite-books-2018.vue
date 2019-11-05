@@ -31,7 +31,7 @@ export default {
     },
     methods: {
         getCoverUrl(book) {
-            return require(`../assets/image/${book}.jpg`)
+            return require(`../../statics/image/${book}.jpg`)
         }
     }
 }

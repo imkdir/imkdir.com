@@ -4,11 +4,11 @@
         <p>Once while I was online looking for a job, a company's job application form requires one to solve a puzzle before one can submit, the question states:</p>
         <p><em>Only the white block is movable, in the left, right, up, and down direction. Give the shortest sequence of steps to go from A to B.</em></p>
         <figure>
-            <img src="../assets/image/puzzle-ab.png" width="256" alt="">
+            <img src="../../statics/image/puzzle-ab.png" width="256" alt="">
         </figure>
         <p>So I made an app for me to try out this puzzle.</p>
         <video width="250" controls>
-            <source src="../assets/video/puzzle-app.mp4" type="video/mp4">
+            <source src="../../statics/video/puzzle-app.mp4" type="video/mp4">
         </video>
         <p>Now fast forward, three years later, I still don't know the answer, but yesterday I came across this project while I was cleaning up my repositories. I cloned it and decided to have a look, why not?
             Within half an hour, I finished refactoring and some UI refinements, as this is 1.1, not 2.0. Surprisingly I learned a lot during this cleanup:</p>

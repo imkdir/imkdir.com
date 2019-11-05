@@ -13,13 +13,10 @@
         <GetAllSubsetsOfOptionSet />
         <div class="separator"></div>
         <NotesOnUnixEnv />
-        <div class="separator"></div>
-        <MyFavoriteBooks2018 />
     </div>
 </template>
 
 <script>
-import MyFavoriteBooks2018 from '../contents/my-favorite-books-2018';
 import NotesOnUnixEnv from '../contents/notes-on-unix-env';
 import GetAllSubsetsOfOptionSet from '../contents/get-all-subsets-of-optionset';
 import StoryBehindEatles from '../contents/story-behind-eatles';
@@ -31,7 +28,6 @@ import MindMapDI from '../contents/mind-map-dependency-injection';
 export default {
     name: 'Blog',
     components: {
-        MyFavoriteBooks2018,
         NotesOnUnixEnv,
         GetAllSubsetsOfOptionSet,
         StoryBehindEatles,

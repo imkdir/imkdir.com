@@ -1,10 +1,9 @@
 <template>
     <article>
         <h2>Mind Map Dependency Injection</h2>
-        <p>I draw a mind map about the things I learned from the book Dependency Injection Principle Patterns and Practices.</p>
+        <p>I draw a mind map about the things I learned from the book <em>Dependency Injection Principles Patterns and Practices</em>.</p>
         <figure>
-            <img src="../assets/image/di-mind-map.jpg" alt="">
-            <figcaption>A Mind Map about Dependency Injection</figcaption>
+            <img src="../../statics/image/di-mind-map.jpg" alt="">
         </figure>
     </article>
 </template>
