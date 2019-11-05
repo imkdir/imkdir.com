@@ -19,7 +19,7 @@
             <li>Avoid assigning cgColor to layer properties; they don't support dark mode at all.</li>
             <li>If you go with Storyboard, <em>Embed in View</em> is your friend, it makes Auto Layout dead simple.</li>
             <li>Even in Storyboard, watch out for violating the DRY principle. When there are many copies of @IBDesignable views, and most of them have the same style, move the appearance setup into source code.</li>
-            <li>Global constant (let alone variable!) is terrible. You can do better.</li>
+            <li>Global constant (let alone variable!) is problematic. You can do better.</li>
             <li>Every crash on force unwrapped nil is an opportunity to change the function's return type to Optional and apply guard against its assignment.</li>
         </ul>
         <p>I created this project on October 10, 2016, while I was looking for a job, three days later, I got my first job; thus, this toy project always has a special meaning to me.</p>
