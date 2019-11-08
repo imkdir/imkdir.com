@@ -1,22 +1,76 @@
 <template>
-    <article>
-        <p class="q">What's your name?</p>
-        <p class="a">My Chinese name is 程东; the English name is Tung CHENG.</p>
-        <p class="q">How long have you been working as an iOS Engineer?</p>
-        <p class="a">Three and a half years now.</p>
-        <p class="q">What's your last job?</p>
-        <p class="a">My last job is at nonda — a company designated in making IoT products, primarily Car related smart devices. It's my first job, and I work in a small team as a junior with two other senior iOS engineers. The software department consists of about twenty people. We have three Apps on the App Store, but the one we mainly focus on is ZUS, an App that connects all the Car related products made by nonda.</p>
-        <p class="q">What had you been doing at your last job?</p>
-        <p class="a">The App later went through a complete redesign. As I was working on the UI and prototype, other team members were busy researching architecture and designing the domain model. At first, we divide the task based on one's specialty; one(a.k.a me) work on UI, other on the domain model, and another on researching technique solutions. Later they taught me the tricks and let me handle the whole task until I was the one who maintained the entire project.</p>
-        <p class="q">Why you leave the company?</p>
-        <p class="a">I thought you'd never ask. I think the reason I resigned after two and a half years is a personal one. I'm fortunate to have such a team when I landed my first job. However things happened, the company's culture changed, made us didn't fit in anymore. So my teammates resigned once they got an offer. I decide to go back to my hometown, and I thought it would be cool to be an indie iOS developer.</p>
-        <p class="q">How does that go? The indie iOS developer thing.</p>
-        <p class="a">Until now, I made two Apps to the App Store; one of them is for calorie tracking; the other is for note-taking. As much as I expected, I can't make money out of it. So I joined friends to do contractor jobs, though it has decent pay, I can't make a career out of it either.</p>
-        <p class="q">Where can we contact you?</p>
-        <figure>
-            <img src="../../statics/image/qr_code_contact.png" width="135" alt="">
-        </figure>
-    </article>
+    <div class="container">
+        <div class="profile">
+            <div class="profile-header">
+                <h2>Tung CHENG</h2>
+                <p><a href="tel:+8618616588235">TEL: 18616588235</a></p>
+                <p><a href="mailto:objectiveCHENG@gmail.com">E-Mail: objectiveCHENG@gmail.com</a></p>
+                <p><a href="https://github.com/imkdir">GitHub</a><a href="http://imkdir.com">Blog</a></p>
+            </div>
+            <h3>Profile</h3>
+            <p>Been Coding in Objective-C and Swift for four years, with several projects on App Store and open-sourced on GitHub. Keen on clean code and modern techniques with board interests in user interface design, programming languages & frameworks.</p>
+        </div>
+        <div class="experience-list">
+            <h3>Experiences</h3>
+            <div class="experience">
+                <h4>2019 - Current, <em>Freelancer</em></h4>
+                <p>During this time, I published two apps on the App Store, which designed and written independently, did a contractor job for jukuner, and other side projects for learning purposes.</p>
+            </div>
+            <div class="experience">
+                <h4>2016 - 2018, <em>nonda iOS Application Engineer</em></h4>
+                <p>During that time, I worked as an iOS Engineer on a team with two other members, maintaining and iterating nonda's ZUS project for about two and a half years. I got promoted once because of efficiency and quality at work.</p>
+            </div>
+        </div>
+        <div class="project-list">
+            <h3>Projects</h3>
+            <div class="project">
+                <h4>JukuSmart and Baseus Smart <em>jukuner</em></h4>
+                <ul>
+                    <li>Language: Swift 5</li>
+                    <li>Architecture: MVC</li>
+                    <li>Frameworks: CoreBluetooth, RxSwift, WCDBSwift</li>
+                    <li>UI: Auto Layout, XIB</li>
+                    <li>cloc: 160 files, 12322 lines</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h4>Eatles</h4>
+                <ul>
+                    <li>Language: Swift 5</li>
+                    <li>Architecture: MVC</li>
+                    <li>Frameworks: CoreData, RxSwift, Ariel, NDBKit</li>
+                    <li>UI: Auto Layout, XIB</li>
+                    <li>cloc: 130 files, 10111 lines</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h4>ZUS <em>for nonda</em></h4>
+                <ul>
+                    <li>Language: Swift 4</li>
+                    <li>Architecture: MVC</li>
+                    <li>Frameworks: CoreBluetooth, Realm, RxSwift, Moya</li>
+                    <li>UI: Auto Layout, XIB</li>
+                    <li>cloc: 742 files, 76278 lines</li>
+                </ul>
+            </div>
+        </div>
+        <div class="education">
+            <h3>Education</h3>
+            <p>Qingdao University, Bachelor, Computer Science and Engineering</p>
+        </div>
+        <div class="skill-list">
+            <h3>Skills</h3>
+            <ul>
+                <li>Good at Auto Layout, familiar with CoreGraphics drawing & animation API.</li>
+                <li>Test RESTful API and implement it in iOS with Codable and libraries like Moya.</li>
+                <li>Write unit tests against UIKit, familiar with TDD and CI tools like Jenkins.</li>
+                <li>Work with Core Data or other frameworks like Realm.</li>
+                <li>Familiar with Xcode and other IDEs like AppCode.</li>
+                <li>Know JavaScript, HTML&CSS, and Python.</li>
+                <li>Use production efficiency skills like Vim, touch typing, and command line.</li>
+            </ul>
+        </div>
+    </div>
 </template>
 
 <script>
@@ -26,13 +80,18 @@
 </script>
 
 <style scoped>
-    article {
-        width: 95%;
-    }
-    article p {
+    h3, h4, p, ul {
         text-align: justify;
     }
-    p.q {
-        font-weight: bold;
+    .profile-header p {
+        text-align: center;
+    }
+    .profile-header a {
+        padding: 0 20px 0 20px;
+        text-decoration: none;
+        color: dimgrey;
+    }
+    h4 {
+        color: #2c3e50;
     }
 </style>
