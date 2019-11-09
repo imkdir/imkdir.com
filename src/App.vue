@@ -20,36 +20,46 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin: 20px;
-  height: 100%;
-  width: 95%;
-  overflow-x: hidden;
-}
-
-aside {
-  float: right;
-  border-left: solid gray 1px;
-  border-top: solid gray 1px;
-  border-bottom: solid gray 1px;
-}
-
-.main {
-  width: 50%;
-}
-
-@media only screen and (max-width: 768px) {
-  .main {
-    width: 100%;
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin: 20px;
+    height: 100%;
+    width: 95%;
+    overflow-x: hidden;
   }
+
   aside {
-    margin-bottom: 20px;
-    border: none;
+    float: right;
+    border-left: solid gray 1px;
+    border-top: solid gray 1px;
+    border-bottom: solid gray 1px;
   }
-}
+
+  .main {
+    width: 50%;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .main {
+      width: 100%;
+    }
+    aside {
+      margin-bottom: 20px;
+      border: none;
+    }
+  }
+
+  @media only print {
+    header, aside {
+      display: none;
+    }
+    .main {
+      width: 100%;
+    }
+  }
+
 </style>

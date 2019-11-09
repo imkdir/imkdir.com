@@ -4,9 +4,9 @@
             <div class="profile-header">
                 <h2>Tung CHENG</h2>
                 <a href="https://github.com/imkdir" target="_blank"><font-awesome-icon :icon="github" /></a>
-                <a href="https://www.goodreads.com/user/show/53454089-tung-cheng" target="_blank"><font-awesome-icon :icon="goodreads" /></a>
+                <a href="https://goodreads.com/imkdir" target="_blank"><font-awesome-icon :icon="goodreads" /></a>
                 <a href="https://twitter.com/imkdir" target="_blank"><font-awesome-icon :icon="twitter" /></a>
-                <a href="https://www.instagram.com/imkdir/" target="_blank"><font-awesome-icon :icon="instagram" /></a>
+                <a href="https://instagram.com/imkdir" target="_blank"><font-awesome-icon :icon="instagram" /></a>
                 <p><a href="tel:+8618616588235">TEL: 18616588235</a></p>
                 <p><a href="mailto:objectiveCHENG@gmail.com">E-Mail: objectiveCHENG@gmail.com</a></p>
             </div>
