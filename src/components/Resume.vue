@@ -3,9 +3,12 @@
         <div class="profile">
             <div class="profile-header">
                 <h2>Tung CHENG</h2>
+                <a href="https://github.com/imkdir" target="_blank"><font-awesome-icon :icon="github" /></a>
+                <a href="https://www.goodreads.com/user/show/53454089-tung-cheng" target="_blank"><font-awesome-icon :icon="goodreads" /></a>
+                <a href="https://twitter.com/imkdir" target="_blank"><font-awesome-icon :icon="twitter" /></a>
+                <a href="https://www.instagram.com/imkdir/" target="_blank"><font-awesome-icon :icon="instagram" /></a>
                 <p><a href="tel:+8618616588235">TEL: 18616588235</a></p>
                 <p><a href="mailto:objectiveCHENG@gmail.com">E-Mail: objectiveCHENG@gmail.com</a></p>
-                <p><a href="https://github.com/imkdir">GitHub</a><a href="http://imkdir.com">Blog</a></p>
             </div>
             <h3>Profile</h3>
             <p>Been Coding in Objective-C and Swift for four years, with several projects on App Store and open-sourced on GitHub. Keen on clean code and modern techniques with board interests in user interface design, programming languages & frameworks.</p>
@@ -24,11 +27,11 @@
         <div class="project-list">
             <h3>Projects</h3>
             <div class="project">
-                <h4>JukuSmart and Baseus Smart <em>jukuner</em></h4>
+                <h4>JukuSmart and Baseus Smart <em>for jukuner</em></h4>
                 <ul>
                     <li>Language: Swift 5</li>
                     <li>Architecture: MVC</li>
-                    <li>Frameworks: CoreBluetooth, RxSwift, WCDBSwift</li>
+                    <li>Frameworks: CoreBluetooth, RxSwift, Moya, WCDBSwift</li>
                     <li>UI: Auto Layout, XIB</li>
                     <li>cloc: 160 files, 12322 lines</li>
                 </ul>
@@ -65,6 +68,7 @@
                 <li>Test RESTful API and implement it in iOS with Codable and libraries like Moya.</li>
                 <li>Write unit tests against UIKit, familiar with TDD and CI tools like Jenkins.</li>
                 <li>Work with Core Data or other frameworks like Realm.</li>
+                <li>Familiar with MVVM, MVC architectures, and reactive programming library like RxSwift.</li>
                 <li>Familiar with Xcode and other IDEs like AppCode.</li>
                 <li>Know JavaScript, HTML&CSS, and Python.</li>
                 <li>Use production efficiency skills like Vim, touch typing, and command line.</li>
@@ -74,12 +78,27 @@
 </template>
 
 <script>
+    import { faGithub, faGoodreads, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
+    import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
     export default {
-        name: "Resume"
+        name: "Resume",
+        data() {
+            return {
+                github: faGithub,
+                goodreads: faGoodreads,
+                twitter: faTwitter,
+                instagram: faInstagram
+            }
+        },
+        components: { FontAwesomeIcon }
     }
 </script>
 
 <style scoped>
+    .container {
+        width: 95%;
+    }
     h3, h4, p, ul {
         text-align: justify;
     }
@@ -87,9 +106,9 @@
         text-align: center;
     }
     .profile-header a {
-        padding: 0 20px 0 20px;
         text-decoration: none;
         color: dimgrey;
+        padding: 0 20px 0 20px;
     }
     h4 {
         color: #2c3e50;
