@@ -11,7 +11,7 @@
                 <p><a href="mailto:objectiveCHENG@gmail.com">E-Mail: objectiveCHENG@gmail.com</a></p>
             </div>
             <h3>Profile</h3>
-            <p>Been Coding in Objective-C and Swift for four years, with several projects on App Store and open-sourced on GitHub. Keen on clean code and modern techniques with board interests in user interface design, programming languages & frameworks.</p>
+            <p>Been Coding in Objective-C and Swift for four years, with several projects on the App Store and open-sourced on GitHub. Keen on clean code and modern techniques with board interests in user interface design, programming languages & frameworks.</p>
         </div>
         <div class="experience-list">
             <h3>Experiences</h3>
@@ -100,7 +100,7 @@
         width: 95%;
     }
     h3, h4, p, ul {
-        text-align: justify;
+        text-align: left;
     }
     .profile-header p {
         text-align: center;

@@ -1,5 +1,7 @@
 <template>
     <div class="blog-entries">
+        <LeavingForSH />
+        <div class="separator"></div>
         <MindMapDI />
         <div class="separator"></div>
         <OldPuzzleNewGame />
@@ -24,6 +26,7 @@ import MyFavoriteBooks2019 from '../contents/my-favorite-books-2019';
 import BringBackOldProject from '../contents/bring-back-old-project';
 import OldPuzzleNewGame from '../contents/old-puzzle-new-game';
 import MindMapDI from '../contents/mind-map-dependency-injection';
+import LeavingForSH from '../contents/leaving-for-shanghai';
 
 export default {
     name: 'Blog',
@@ -35,6 +38,7 @@ export default {
         BringBackOldProject,
         OldPuzzleNewGame,
         MindMapDI,
+        LeavingForSH,
     }
 }
 </script>
