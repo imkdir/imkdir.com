@@ -2,14 +2,8 @@
     <article>
         <section>
             <h2>whois</h2>
-            <p>Welcome to my web site, my name is Tung CHENG, I've been an iOS developer since 2016,
-                graduated from Qingdao University in 2015, major in Computer Science and Engineering.
-                After my first job as a junior iOS engineer at nonda for two and a half years in Shanghai,
-                I quit the job, moved back to my hometown to work as a freelancer. During this time,
-                I enrolled in the Apple Developer Program, delivered my first app to the App Store while
-                doing a contractor job with friends.
-            </p>
-            <p>I'm currently looking for a full-time iOS engineer job.</p>
+            <p>Welcome to my web site, my name is Tung CHENG. I grew up in south China, Hunan province, went to college in Qingdao, after graduation in 2015, until now working in Shanghai as an iOS developer, currently working for Glow.</p>
+            <p>I see myself as a coder, a reader, and a moviegoer, and I still want to be a writer, you know.</p>
         </section>
         <section>
             <h2>contact</h2>
